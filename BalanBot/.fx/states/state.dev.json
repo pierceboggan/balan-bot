@@ -1,0 +1,36 @@
+{
+    "solution": {
+        "teamsAppTenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "subscriptionId": "52462f3d-9226-4c1a-ae95-9a1f2b2c2e0f",
+        "subscriptionName": ".NET Team R&D",
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "needCreateResourceGroup": true,
+        "resourceGroupName": "BalanBot",
+        "location": "westus",
+        "resourceNameSuffix": "8e8ab5",
+        "provisionSucceeded": true
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "teamsAppId": "3b6e2276-f62e-40fa-84cd-9bfa20d4c0f8",
+        "teamsAppUpdatedAt": 1663279998875
+    },
+    "fx-resource-identity": {
+        "identityName": "balanbotdev35cf9c",
+        "identityResourceId": "/subscriptions/52462f3d-9226-4c1a-ae95-9a1f2b2c2e0f/resourceGroups/BalanBot/providers/Microsoft.ManagedIdentity/userAssignedIdentities/balanbotdev35cf9c",
+        "identityClientId": "20385890-85ba-401e-b53e-95d5191f9497"
+    },
+    "fx-resource-bot": {
+        "botId": "782184ba-4a61-4f0b-8281-83e9e1bbe09a",
+        "botPassword": "{{fx-resource-bot.botPassword}}",
+        "objectId": "05dcf556-4194-4273-a925-78d3e906e3c1",
+        "skuName": "B1",
+        "siteName": "balanbotdev35cf9cbot",
+        "validDomain": "balanbotdev35cf9cbot.azurewebsites.net",
+        "appServicePlanName": "balanbotdev35cf9cbot",
+        "resourceId": "/subscriptions/52462f3d-9226-4c1a-ae95-9a1f2b2c2e0f/resourceGroups/BalanBot/providers/Microsoft.Web/sites/balanbotdev35cf9cbot",
+        "siteEndpoint": "https://balanbotdev35cf9cbot.azurewebsites.net"
+    },
+    "fx-resource-cicd": {},
+    "fx-resource-api-connector": {}
+}
